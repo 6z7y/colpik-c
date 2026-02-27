@@ -53,9 +53,6 @@ You can pipe the output to a clipboard tool:
 ## how it works
 ![Diagram](/diagram/diagram.png)
 
-
-```
-
 ## Troubleshooting
 
 ### Common Issues
@@ -81,4 +78,3 @@ A: Currently supports Linux only (X11/Wayland).
 A: Use:
 ```bash
 cc main.c -o colpik -lm
-```
