@@ -67,7 +67,7 @@ You can pipe the output to a clipboard tool:
 
 - **Color not captured**:
   - Check your display server: `echo $XDG_SESSION_TYPE`.
-  - Ensure `/tmp` has write permissions for `/tmp/imgpik.png`.
+  - Ensure `/tmp` has write permissions for `/tmp/colpik_cache.png`.
 
 ## FAQ
 
