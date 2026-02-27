@@ -12,7 +12,7 @@ A simple C-based tool that captures the color of a pixel at your cursor position
 
 **For X11**:
 ```bash
-maim xdotool xclip
+maim slop xdotool xclip
 ```
 
 **For Wayland**:
