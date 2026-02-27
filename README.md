@@ -50,7 +50,7 @@ x11: colpik | xclip -selection clipboard
 
 
 ## how it works
-![Diagram][diagram/diagram.png]
+![Diagram](/diagram/diagram.png)
 
 
 ```
