@@ -55,11 +55,11 @@ int main()
     return 1;
   }
 
-  // 3. take screen shoot (with position)
+  // 3. take screenshot (with position)
   if (is_wayland) GRIM_COMMAND_W(buf, x, y , IMG_PATH);
   else            MAIM_COMMAND_X(buf, x -2, y -2 , IMG_PATH);
 
-  system(buf); // exec screen shot
+  system(buf); // exec screenshot command
 
   // 4. load image
   int channels, w, h;
@@ -74,7 +74,6 @@ int main()
 
   // 5. convert to hex
   printf("#%02X%02X%02X", r, g, b);
-  // system("rm -r /tmp/colpik_cache.png");
 
   // 6. remove image cache
   system("rm -r /tmp/colpik_cache.png");
