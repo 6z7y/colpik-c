@@ -45,8 +45,9 @@ colpik
 
 You can pipe the output to a clipboard tool:
 
-wayland: colpik | wl-copy
-x11: colpik | xclip -selection clipboard
+wayland: `colpik | wl-copy`
+||
+x11: `colpik | xclip -selection clipboard`
 
 
 ## how it works
