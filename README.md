@@ -30,6 +30,12 @@ cd colpik-c
 make install
 ```
 
+To uninstall:
+
+```bash
+make uninstall
+```
+
 Run it with:
 ```bash
 colpik
